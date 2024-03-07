@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-pod-1
+  namespace: mooncard
+  labels:
+    name: mooncard
+    app: mooncard
+spec:
+  containers:
+  - name: simple-sleeping-pod
+    image: public.ecr.aws/nginx/nginx:stable-perl
