@@ -8,6 +8,12 @@
 - Install [OpenLens](https://github.com/MuhammedKalkan/OpenLens/releases)
   - In OpenLens, navigate to the Extensions list. In the text box, enter the name of this plugin: `@alebcay/openlens-node-pod-menu`
 - Install **helm** command line (`brew install helm`)
+- Install **mkcert**
+ ```
+  brew install mkcert
+  brew install nss
+  mkcert -install
+  ```
 
 ### Activate Kubernetes in Orbstack
 

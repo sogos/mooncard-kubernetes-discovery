@@ -23,3 +23,5 @@ spec:
         image: public.ecr.aws/nginx/nginx:stable-perl
         ports:
         - containerPort: 80
+          protocol: TCP
+          name: http
