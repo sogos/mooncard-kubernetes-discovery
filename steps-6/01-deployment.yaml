@@ -21,6 +21,9 @@ spec:
       containers:
       - name: simple-sleeping-pod
         image: public.ecr.aws/nginx/nginx:stable-perl
+        envFrom:
+        - configMapRef:
+            name: simple-configmap
         ports:
         - containerPort: 80
           protocol: TCP
